@@ -32,3 +32,6 @@ def reading_an_csv():
         csv_reader = csv.reader(csv_file, delimiter=',')
         for row in csv_reader:
             print(row)
+            
+c=factorial(9)
+print('Reading', c)#my player is nonexistent 
